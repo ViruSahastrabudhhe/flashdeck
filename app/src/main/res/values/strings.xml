@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">flashdeck</string>
+    <string name="title_activity_homepage">activityHomepage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">FlashDeck</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_import">Import</string>
+    <string name="action_export">Export</string>
+
+    <string name="menu_decks">Decks</string>
+    <string name="menu_browser">Card Browser</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="settings_btnGeneral">General</string>
+    <string name="settings_btnNotifications">Notifications</string>
+    <string name="settings_btnSync">Sync</string>
+    <string name="settings_btnAccount">Account</string>
+</resources>
