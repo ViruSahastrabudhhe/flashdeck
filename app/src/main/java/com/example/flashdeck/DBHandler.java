@@ -1,6 +1,5 @@
 package com.example.flashdeck;
 
-import com.example.flashdeck.Users;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

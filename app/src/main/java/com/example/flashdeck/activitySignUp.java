@@ -67,6 +67,10 @@ public class activitySignUp extends AppCompatActivity {
                     Toast.makeText(activitySignUp.this, "Passwords do not match!", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (dbHandler.selectUserEmail(queryEmail)) {
+                    Toast.makeText(activitySignUp.this, "Account already exists!", Toast.LENGTH_SHORT).show();
+                    return;
+                }
 
                 dbHandler.addNewUser(queryEmail, queryPassword);
 
